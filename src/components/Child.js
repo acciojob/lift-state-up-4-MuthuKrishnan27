@@ -9,8 +9,8 @@ const Child =({items,removeItem})=>{
             {
                 items.map((item)=>(
                     <li key={item.id}>
-                        <span id="itemName">{item.itemName} - </span>
-                        <span id="itemPrice">${item.itemPrice}</span>
+                        <span>{item.itemName} - </span>
+                        <span>${item.itemPrice}</span>
                         <button onClick={()=>removeItem(item.id)}>Remove</button>
                     </li>
                 ))

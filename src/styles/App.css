@@ -1,1 +1,15 @@
 
+.parent{
+    padding: 15px;
+    background-color: chartreuse;
+}
+
+.child{
+    margin-top: 10px;
+    padding: 15px;
+    background-color: lightcoral;
+}
+
+button{
+    margin-left: 5px;
+}

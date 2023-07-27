@@ -40,7 +40,7 @@ const Parent =()=>{
                 <label>Item Price:
                     <input id="itemPrice" type="number" value={newItemPrice} onChange={(e) => setNewItemPrice(e.target.value)}></input>
                 </label>
-                <button onClick={itemObjects}>Add Items</button>
+                <button onClick={itemObjects}>Add Item</button>
             </form>
             <Child items={items} removeItem={removeItem}/>
         </div>

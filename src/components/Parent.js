@@ -3,7 +3,11 @@ import Child from "./Child"
 
 const Parent =()=>{
 
-    let [items,setItems] = useState([]);
+    let [items,setItems] = useState([
+        { id: 1, itemName: 'Item 1', itemPrice: 10 },
+        { id: 2, itemName: 'Item 2', itemPrice: 20 },
+        { id: 3, itemName: 'Item 3',itemPrice: 15 },
+    ]);
 
     const [newItemName, setNewItemName] = useState('');
     const [newItemPrice, setNewItemPrice] = useState('');

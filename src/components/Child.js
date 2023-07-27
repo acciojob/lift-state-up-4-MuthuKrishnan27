@@ -8,7 +8,7 @@ const Child =({items,removeItem})=>{
            <ul>
             {
                 items.map((item)=>(
-                    <li key={item.id}>
+                    <li>
                         <span>{item.itemName} - </span>
                         <span>${item.itemPrice}</span>
                         <button onClick={()=>removeItem(item.id)}>Remove</button>
